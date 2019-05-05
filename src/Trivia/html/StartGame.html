@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title >StartPage</title>
+    <script type="text/javascript" src="/src/Trivia/categories.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+<style>
+    #Header {
+        background-color: skyblue;
+        color: black;
+        padding: 40px;
+        text-align: center
+    }
+</style>
+
+
+<body onload="filterQuestion()">
+
+<p id ="Question">aaa</p>
+
+
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'B');"
+>
+
+    <br>
+
+    <INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+    A. Another name for Java<BR>
+    <br>
+
+    <INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+    B. Just a man <BR>
+    <br>
+    <INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+    C. skrt skrt <BR>
+    <br>
+    <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
+
+    <br><br><br>
+    <p1> Timer: 30 seconds left </p1>
+    <br>
+    <p2> 257/300 players left</p2>
+</FORM>
+
+</body>
+</html>
